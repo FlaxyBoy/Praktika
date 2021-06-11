@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cv.bloody.ua.controllers.AppController">
+   <children>
+      <TextField fx:id="mainFiled" layoutX="226.0" layoutY="91.0" onAction="#onAction" prefHeight="28.0" prefWidth="270.0" style="-fx-border-width: 0px 0px 2px 0px; -fx-border-color: #ad18a9; -fx-background-color: transparent;" />
+      <Text fill="#ed00e1" layoutX="91.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введіть число x" />
+      <TextField fx:id="responseFiled" editable="false" layoutX="226.0" layoutY="200.0" prefHeight="28.0" prefWidth="270.0" style="-fx-border-width: 0px 0px 2px 0px; -fx-border-color: #ad18a9; -fx-background-color: transparent;" />
+      <Text fill="#ed00e1" layoutX="91.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Відповідь" wrappingWidth="84.6796875" />
+      <Button layoutX="180.0" layoutY="303.0" mnemonicParsing="false" onAction="#onAction" prefHeight="54.0" prefWidth="238.0" style="-fx-background-color: #ad18a9;" text="Получити відповідь" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
